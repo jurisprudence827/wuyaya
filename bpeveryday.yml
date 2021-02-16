@@ -107,6 +107,18 @@ proxies:
     type: ss
     cipher: aes-256-cfb
     password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
+  - name: 🇯🇵 JP_2023 |28.17Mb
+    server: 89.187.161.241
+    port: 37473
+    type: ss
+    cipher: aes-256-gcm
+    password: enctdKyJfSu76VqznKwTt6Ap
+  - name: 🇯🇵 JP_2048 |25.02Mb
+    server: 89.187.161.2
+    port: 31764
+    type: ss
+    cipher: aes-256-gcm
+    password: YgusH2MWA8PWc3p2VDsR7AVv
   - name: 🇨🇳 TW_2912 |15.45Mb
     server: 61.222.202.195
     port: 810
@@ -178,6 +190,18 @@ proxies:
     ws-path: /v2ray
     ws-headers:
       Host: gz.yaode.ga
+  - name: 🇯🇵 日本🇯🇵东京/麒麟网络/移动优化
+    server: 120.232.214.228
+    port: 13477
+    type: vmess
+    uuid: ca477a61-e54a-311b-9b99-9963008a37bb
+    alterId: 1
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: 120.232.214.228
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -199,6 +223,8 @@ proxy-groups:
       - 🇯🇵 JP_1879 |33.28Mb
       - 🇯🇵 JP_1890 |27.04Mb
       - 🇯🇵 JP_1950 |27.73Mb
+      - 🇯🇵 JP_2023 |28.17Mb
+      - 🇯🇵 JP_2048 |25.02Mb
       - 🇨🇳 TW_2912 |15.45Mb
       - 🇨🇳 TW_2925 |22.91Mb
       - 🇨🇳 TW_2930 |14.98Mb
@@ -207,6 +233,7 @@ proxy-groups:
       - 🇺🇸 adi|0215T - 西雅图C
       - 🇭🇰 [V1]直连|沪港01
       - 🇭🇰 [V1]移动|粤港02
+      - 🇯🇵 日本🇯🇵东京/麒麟网络/移动优化
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -228,6 +255,8 @@ proxy-groups:
       - 🇯🇵 JP_1879 |33.28Mb
       - 🇯🇵 JP_1890 |27.04Mb
       - 🇯🇵 JP_1950 |27.73Mb
+      - 🇯🇵 JP_2023 |28.17Mb
+      - 🇯🇵 JP_2048 |25.02Mb
       - 🇨🇳 TW_2925 |22.91Mb
       - 🇨🇳 TW_2912 |15.45Mb
       - 🇨🇳 TW_2930 |14.98Mb
@@ -236,6 +265,7 @@ proxy-groups:
       - 🇺🇸 adi|0215T - 西雅图C
       - 🇭🇰 [V1]直连|沪港01
       - 🇭🇰 [V1]移动|粤港02
+      - 🇯🇵 日本🇯🇵东京/麒麟网络/移动优化
   - name: 🌍 国外媒体
     type: select
     proxies:
