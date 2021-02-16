@@ -152,6 +152,32 @@ proxies:
     type: trojan
     password: 7f3d9f50-dc2c-4c11-b9bc-52a679984a90
     sni: xibun.gq
+  - name: 🇭🇰 [V1]直连|沪港01
+    server: shnat01.coalcloud.xyz
+    port: 20663
+    type: vmess
+    uuid: 330d77d4-b23a-31cc-86f8-e31fea469e27
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: shnat01.coalcloud.xyz
+  - name: 🇭🇰 [V1]移动|粤港02
+    server: gz.yaode.ga
+    port: 10040
+    type: vmess
+    uuid: 330d77d4-b23a-31cc-86f8-e31fea469e27
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-path: /v2ray
+    ws-headers:
+      Host: gz.yaode.ga
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -179,6 +205,8 @@ proxy-groups:
       - 🇸🇬 adi|0128 - 新加坡133
       - 顺丰资源2218
       - 🇺🇸 adi|0215T - 西雅图C
+      - 🇭🇰 [V1]直连|沪港01
+      - 🇭🇰 [V1]移动|粤港02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -206,6 +234,8 @@ proxy-groups:
       - 🇸🇬 adi|0128 - 新加坡133
       - 顺丰资源2218
       - 🇺🇸 adi|0215T - 西雅图C
+      - 🇭🇰 [V1]直连|沪港01
+      - 🇭🇰 [V1]移动|粤港02
   - name: 🌍 国外媒体
     type: select
     proxies:
