@@ -35,90 +35,12 @@ proxies:
     obfs: http_post
     protocol-param: 158:dOuoD1BjHk
     obfs-param: ajax.microsoft.com
-  - name: 🇭🇰 HK_591
-    server: 212.102.42.201
-    port: 33992
-    type: ss
-    cipher: aes-256-gcm
-    password: 8n6pwAcrrv2pj6tFY2p3TbQ6
   - name: jp1
     server: 89.187.161.241
     port: 31944
     type: ss
     cipher: aes-256-gcm
     password: aYNeKDMzYQYw4KbUbJA8Wszq
-  - name: 🇯🇵 JP_716
-    server: 84.17.34.24
-    port: 33992
-    type: ss
-    cipher: aes-256-gcm
-    password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  - name: 🇯🇵 JP_1771 |31.92Mb
-    server: 89.187.161.241
-    port: 37473
-    type: ss
-    cipher: aes-256-gcm
-    password: enctdKyJfSu76VqznKwTt6Ap
-  - name: 🇯🇵 JP_1773 |32.22Mb
-    server: 89.187.161.241
-    port: 31944
-    type: ss
-    cipher: aes-256-gcm
-    password: aYNeKDMzYQYw4KbUbJA8Wszq
-  - name: 🇯🇵 JP_1786 |33.30Mb
-    server: 84.17.34.24
-    port: 33992
-    type: ss
-    cipher: aes-256-gcm
-    password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  - name: 🇯🇵 JP_1791
-    server: 89.187.161.241
-    port: 35294
-    type: ss
-    cipher: aes-256-gcm
-    password: J9Y2ncrdPEC38gwydNFFGBna
-  - name: 🇯🇵 JP_1815
-    server: 84.17.34.24
-    port: 33992
-    type: ss
-    cipher: aes-256-gcm
-    password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  - name: 🇯🇵 JP_1823 |
-    server: milkgogo.ga
-    port: 443
-    type: trojan
-    password: af920201-1b42-47f1-9397-1773a484fbe5
-    sni: milkgogo.ga
-  - name: 🇯🇵 JP_1879 |33.28Mb
-    server: 89.187.161.241
-    port: 35294
-    type: ss
-    cipher: aes-256-gcm
-    password: J9Y2ncrdPEC38gwydNFFGBna
-  - name: 🇯🇵 JP_1890 |27.04Mb
-    server: 89.187.161.241
-    port: 31944
-    type: ss
-    cipher: aes-256-gcm
-    password: aYNeKDMzYQYw4KbUbJA8Wszq
-  - name: 🇯🇵 JP_1950 |27.73Mb
-    server: 172.105.215.232
-    port: 8097
-    type: ss
-    cipher: aes-256-cfb
-    password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  - name: 🇯🇵 JP_2023 |28.17Mb
-    server: 89.187.161.241
-    port: 37473
-    type: ss
-    cipher: aes-256-gcm
-    password: enctdKyJfSu76VqznKwTt6Ap
-  - name: 🇯🇵 JP_2048 |25.02Mb
-    server: 89.187.161.2
-    port: 31764
-    type: ss
-    cipher: aes-256-gcm
-    password: YgusH2MWA8PWc3p2VDsR7AVv
   - name: 🇨🇳 TW_2912 |15.45Mb
     server: 61.222.202.195
     port: 810
@@ -144,52 +66,6 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: 🇸🇬 adi|0128 - 新加坡133
-    server: 8.210.3.133
-    port: 56647
-    type: vmess
-    uuid: c2181184-e487-4b37-a029-f61d90523950
-    alterId: 233
-    cipher: auto
-    tls: false
-  - name: 顺丰资源2218
-    server: 84.17.34.24
-    port: 33992
-    type: ss
-    cipher: aes-256-gcm
-    password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  - name: 🇺🇸 adi|0215T - 西雅图C
-    server: xibun.gq
-    port: 443
-    type: trojan
-    password: 7f3d9f50-dc2c-4c11-b9bc-52a679984a90
-    sni: xibun.gq
-  - name: 🇭🇰 [V1]直连|沪港01
-    server: shnat01.coalcloud.xyz
-    port: 20663
-    type: vmess
-    uuid: 330d77d4-b23a-31cc-86f8-e31fea469e27
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-path: /v2ray
-    ws-headers:
-      Host: shnat01.coalcloud.xyz
-  - name: 🇭🇰 [V1]移动|粤港02
-    server: gz.yaode.ga
-    port: 10040
-    type: vmess
-    uuid: 330d77d4-b23a-31cc-86f8-e31fea469e27
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-path: /v2ray
-    ws-headers:
-      Host: gz.yaode.ga
   - name: 🇯🇵 日本🇯🇵东京/麒麟网络/移动优化
     server: 120.232.214.228
     port: 13477
@@ -211,28 +87,10 @@ proxy-groups:
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇭🇰 HK_591
       - jp1
-      - 🇯🇵 JP_716
-      - 🇯🇵 JP_1771 |31.92Mb
-      - 🇯🇵 JP_1773 |32.22Mb
-      - 🇯🇵 JP_1786 |33.30Mb
-      - 🇯🇵 JP_1791
-      - 🇯🇵 JP_1815
-      - 🇯🇵 JP_1823 |
-      - 🇯🇵 JP_1879 |33.28Mb
-      - 🇯🇵 JP_1890 |27.04Mb
-      - 🇯🇵 JP_1950 |27.73Mb
-      - 🇯🇵 JP_2023 |28.17Mb
-      - 🇯🇵 JP_2048 |25.02Mb
       - 🇨🇳 TW_2912 |15.45Mb
       - 🇨🇳 TW_2925 |22.91Mb
       - 🇨🇳 TW_2930 |14.98Mb
-      - 🇸🇬 adi|0128 - 新加坡133
-      - 顺丰资源2218
-      - 🇺🇸 adi|0215T - 西雅图C
-      - 🇭🇰 [V1]直连|沪港01
-      - 🇭🇰 [V1]移动|粤港02
       - 🇯🇵 日本🇯🇵东京/麒麟网络/移动优化
   - name: ♻️ 自动选择
     type: url-test
@@ -243,28 +101,10 @@ proxy-groups:
       - 🇭🇰 香港01
       - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇭🇰 HK_591
       - jp1
-      - 🇯🇵 JP_716
-      - 🇯🇵 JP_1771 |31.92Mb
-      - 🇯🇵 JP_1773 |32.22Mb
-      - 🇯🇵 JP_1786 |33.30Mb
-      - 🇯🇵 JP_1791
-      - 🇯🇵 JP_1815
-      - 🇯🇵 JP_1823 |
-      - 🇯🇵 JP_1879 |33.28Mb
-      - 🇯🇵 JP_1890 |27.04Mb
-      - 🇯🇵 JP_1950 |27.73Mb
-      - 🇯🇵 JP_2023 |28.17Mb
-      - 🇯🇵 JP_2048 |25.02Mb
       - 🇨🇳 TW_2925 |22.91Mb
       - 🇨🇳 TW_2912 |15.45Mb
       - 🇨🇳 TW_2930 |14.98Mb
-      - 🇸🇬 adi|0128 - 新加坡133
-      - 顺丰资源2218
-      - 🇺🇸 adi|0215T - 西雅图C
-      - 🇭🇰 [V1]直连|沪港01
-      - 🇭🇰 [V1]移动|粤港02
       - 🇯🇵 日本🇯🇵东京/麒麟网络/移动优化
   - name: 🌍 国外媒体
     type: select
